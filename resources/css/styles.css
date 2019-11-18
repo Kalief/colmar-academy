@@ -1,3 +1,308 @@
 html {
   font-size: 16px;
 }
+
+.flex {
+  display: flex;
+}
+
+/* header */
+.header {
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  font-family: Helvetica;
+  padding: 0 1.5rem;
+}
+
+.header .logo {
+  align-items: center;
+  font-size: 2rem;
+}
+
+.header .logo .dark {
+  color: black;
+  font-weight: bold;
+}
+
+.header .logo .light {
+  color: #D8D8D8;
+  font-weight: normal;
+}
+
+.header .logo img {
+  height: 4rem;
+}
+
+.header .nav-items {
+  font-size: 1.5rem;
+}
+
+.header .nav-items span {
+  margin-right: 1rem;
+}
+
+.header .nav-items span:last-child {
+  margin-right: 0;
+}
+/* header end */
+
+/* section 1 */
+.section1 {
+  height: 45rem;
+  padding: 4rem 3rem;
+  background-color: #D8D8D8;
+  font-family: Helvetica;
+}
+
+.section1 .image-container {
+  width: 60%;
+  margin-right: 5rem;
+}
+
+.section1 .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 .content {
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section1 .content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.section1 .content h2 {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+.section1 .content a {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem 0;
+  transition: opacity 0.1s linear;
+}
+
+.section1 .content a:hover {
+  opacity: 0.7;
+}
+/* secton 1 end */
+
+/* section 2 */
+.section2 {
+  padding: 4rem 3rem;
+  font-family: Helvetica;
+}
+
+.section2 .box-left {
+  width: 60%;
+  margin-right: 5rem;
+}
+
+.section2 .box-left h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+
+.section2 .box-left h2 {
+  font-size: 1.5rem;
+  padding: 3rem 0;
+}
+
+.section2 .box-left p {
+  font-size: 1.2rem;
+}
+
+.section2 .box-left img {
+  width: 100%;
+}
+
+.section2 .box-right {
+  width: 40%;
+}
+
+.section2 .image-container {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.section2 .image-container img {
+  width: 100%;
+}
+
+.section2 .content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section2 .content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section2 .content h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.section2 .content a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+/* section 2 end */
+
+/* section 3 */
+.section3 {
+  font-family: Helvetica;
+  background-color: #D8D8D8;
+  line-height: 1.4;
+}
+
+.section3 .heading {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.section3 .content-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 4.5rem;
+  padding: 4rem 0;
+}
+
+.section3 .content {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 32rem;
+  background-color: white;
+}
+
+.section3 .content img {
+  width: 100%;
+}
+
+.section3 .content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section3 .content h2 {
+  font-size: 1.5rem;
+}
+
+.section3 .content.mid {
+  margin: 0 2rem;
+}
+
+.section3 .content.bottom {
+  margin-top: 2rem;
+}
+
+.section3 h2.mid {
+  padding: 1rem 0;
+}
+
+.section3 .content-text {
+  padding: 3rem;
+}
+/* section 3 end */
+
+/* section 4 */
+.section4 {
+  font-family: Helvetica;
+  padding: 4rem 3rem;
+}
+
+.section4 .heading {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section4 .content-left {
+  width: 60%;
+  margin-right: 5rem;
+}
+
+.section4 video {
+  width: 100%;
+}
+
+.section4 .content-right {
+  width: 40%;
+}
+
+.section4 .content-container {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.section4 .image-container {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.section4 .image-container img {
+  width: 100%;
+}
+
+.section4 .content-right .content-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section4 .content-right .content-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section4 .content-right .content-text h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.section4 .content-left h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+
+.section4 .content-left h2 {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+/* section 4 end */
+
+/* footer section */
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.footer div span:last-child {
+  margin-left: 1rem;
+}
